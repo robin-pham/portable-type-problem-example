@@ -1,0 +1,14 @@
+{
+  "name": "packageB",
+  "version": "1.0.0",
+  "description": "packageB",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --incremental",
+    "clean": "rm -rf build tsconfig.tsbuildinfo",
+    "start:dev": "tsc -w --incremental"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}

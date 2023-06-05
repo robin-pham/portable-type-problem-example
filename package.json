@@ -1,0 +1,12 @@
+{
+  "name": "example of broken pnpm typescript resolve",
+  "version": "1.0.0",
+  "description": "A fullstack example of a pnpm workspace.",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm --stream -r start",
+    "start:dev": "pnpm --parallel --stream -r run start:dev",
+    "clean": "pnpm --parallel --stream -r run clean",
+    "build": "pnpm --stream -r run build"
+  }
+}
